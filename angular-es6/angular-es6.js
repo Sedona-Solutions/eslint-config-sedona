@@ -1,0 +1,45 @@
+module.exports = {
+    'ecmaFeatures': {
+        'arrowFunctions': true,
+        'binaryLiterals': false,
+        'blockBindings': true,
+        'classes': true,
+        'defaultParams': true,
+        'destructuring': true,
+        'forOf': false,
+        'generators': false,
+        'modules': false,
+        'objectLiteralComputedProperties': true,
+        'objectLiteralDuplicateProperties': false,
+        'objectLiteralShorthandMethods': true,
+        'objectLiteralShorthandProperties': true,
+        'octalLiterals': false,
+        'regexUFlag': true,
+        'regexYFlag': true,
+        'restParams': true,
+        'spread': true,
+        'superInFunctions': true,
+        'templateStrings': true,
+        'unicodeCodePointEscapes': false,
+        'globalReturn': false,
+        'jsx': false,
+        'experimentalObjectRestSpread': false
+    },
+    'rules': {
+        'arrow-body-style': 0,
+        'arrow-parens': 0,
+        'arrow-spacing': 2,
+        'constructor-super': 2,
+        'no-class-assign': 2,
+        'no-const-assign': 2,
+        'no-dupe-class-members': 2,
+        'no-this-before-super': 2,
+        'no-var': 2,
+        'object-shorthand': 1,
+        'prefer-arrow-callback': 2,
+        'prefer-const': 0,
+        'prefer-spread': 2,
+        'prefer-template': 2
+    }
+};
+

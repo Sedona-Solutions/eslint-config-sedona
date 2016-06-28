@@ -1,0 +1,50 @@
+module.exports = {
+    'rules': {
+        'array-bracket-spacing': [1, 'never'],
+        'comma-spacing': [ 2, { 'before': false, 'after': true } ],
+        'block-spacing': 2,
+        'brace-style': [ 2, '1tbs', { 'allowSingleLine': false } ],
+        'camelcase': 2,
+        'comma-style': [ 2, 'last' ],
+        'computed-property-spacing': [ 2, 'never' ],
+        'consistent-this': [ 2, 'self' ],
+        'func-style': [ 2, 'expression' ],
+        'id-length': [ 2, { 'min': 3, 'max': 30, 'exceptions': [ 'i', 'c', 'j', 'k', 'id', '$q' ] } ],
+        'indent': [ 2, 4 ],
+        'key-spacing': [ 2, { 'beforeColon': false, 'afterColon': true } ],
+        'lines-around-comment': [ 2, {
+                'beforeBlockComment': true,
+                'beforeLineComment': true,
+                'allowBlockStart': true,
+                'allowObjectStart': false,
+                'allowObjectEnd': false,
+                'allowArrayStart': false,
+                'allowArrayEnd': false
+            }
+        ],
+        'max-depth': [2, 10],
+        'max-len': [2, 160, 4],
+        'max-nested-callbacks': [2, 5],
+        'max-params': [2, 6],
+        'new-parens': 2,
+        'no-continue': 2,
+        'no-lonely-if': 2,
+        'no-mixed-spaces-and-tabs': 2,
+        'no-spaced-func': 2,
+        'no-trailing-spaces': 2,
+        'no-unneeded-ternary': 2,
+        'object-curly-spacing': [ 2, 'always' ],
+        'operator-assignment': [ 2, 'always' ],
+        'operator-linebreak': [ 2, 'none', { 'overrides': { '||': 'after', '&&': 'after' } } ],
+        'quotes': [2, 'single', 'avoid-escape'],
+        'semi-spacing': [ 2, { 'before': false, 'after': true } ],
+        'semi': 2,
+        'space-before-blocks' : [ 2, 'always' ],
+        'space-before-function-paren': [ 2, 'never' ],
+        'space-in-parens': [ 1, 'never'],
+        'space-infix-ops': [ 2, { 'int32Hint': false } ],
+        'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
+        'spaced-comment': [2, 'always']
+    }
+};
+
