@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-sedona",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Sets of eslint rules by Sedona",
-  "main": "index.js",
+  "main": "angular-es6/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +11,23 @@
     "url": "git+https://github.com/Sedona-Solutions/eslint-config-sedona.git"
   },
   "author": {
-    "name": "Sedona Solutions - Sylvain Bigonneau",
-    "email": "sbigonneau@sedona.fr",
+    "name": "Sedona Solutions",
+    "email": "contact@sedona.fr",
     "url": "http://www.sedona.fr/sedona-solutions/"
   },
+  "contributors": [
+    {
+      "name": "Noel Mace",
+      "email": "nmace@sedona.fr"
+    },
+    {
+      "name": "Sylvain Bigonneau",
+      "email": "sbigonneau@sedona.fr"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sedona-Solutions/eslint-config-sedona/issues",
-    "email": "sbigonneau@sedona.fr"
+    "url": "https://github.com/Sedona-Solutions/eslint-config-sedona/issues"
   },
   "homepage": "https://github.com/Sedona-Solutions/eslint-config-sedona#readme"
 }
